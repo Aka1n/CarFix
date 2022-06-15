@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/CarFix/static/css/main.b3ad6d9b.css",
+    "main.js": "/CarFix/static/js/main.ecd0bbf5.js",
+    "static/js/787.6008b523.chunk.js": "/CarFix/static/js/787.6008b523.chunk.js",
+    "static/media/Service.png": "/CarFix/static/media/Service.6ce81ce6961b3ff67138.png",
+    "static/media/Безымянный-2.svg": "/CarFix/static/media/Безымянный-2.485fcdfd849dae42ccbc.svg",
+    "static/media/Слой_299.png": "/CarFix/static/media/Слой_299.fc13ccaf7f1dca374e78.png",
+    "static/media/logo1.svg": "/CarFix/static/media/logo1.e5225c25b0602ab175767af5b01c4481.svg",
+    "index.html": "/CarFix/index.html",
+    "main.b3ad6d9b.css.map": "/CarFix/static/css/main.b3ad6d9b.css.map",
+    "main.ecd0bbf5.js.map": "/CarFix/static/js/main.ecd0bbf5.js.map",
+    "787.6008b523.chunk.js.map": "/CarFix/static/js/787.6008b523.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3ad6d9b.css",
+    "static/js/main.ecd0bbf5.js"
+  ]
+}
