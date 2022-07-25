@@ -18,6 +18,7 @@ import teleg from '../../../imgs/teleg.png'
 import inst from '../../../imgs/inst.png'
 import def from '../../../imgs/428-4287240_no-avatar-user-circle-icon-png.png'
 import sto from '../../../imgs/sto.png'
+import newsPhoto from '../../../imgs/129434f8abd645838f1a0b583ed0ceca_large.jpg'
 
 
 const { TextArea } = Input;
@@ -411,6 +412,50 @@ const StarPage: FC = () => {
                                         <div className="rate__title">ЛорААвто</div>
                                         <div className="rate__address">Беларусь, Минская область, Минский район, Сеницкий сельский совет</div>
                                         <Rate disabled defaultValue={2}/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="news">
+                        <Title text="Новости и авторские статьи" direction="right"/>
+                        <div className="container news-container">
+                            <div className="news__body">
+                                <div className="news__last card">
+                                    <img src={newsPhoto} alt=""/>
+                                    <div className="news__content">
+                                        <div className="news__date">11.11.1111</div>
+                                        <div className="news__text">Lorem ipsum dolor sit amet.</div>
+                                    </div>
+                                </div>
+                                <div className="news__prev">
+                                    <div className="news__item card">
+                                        <img src={newsPhoto} alt=""/>
+                                        <div className="news__content">
+                                            <div className="news__date">11.11.1111</div>
+                                            <div className="news__text">Lorem ipsum dolor sit amet.</div>
+                                        </div>
+                                    </div>
+                                    <div className="news__item card">
+                                        <img src={newsPhoto} alt=""/>
+                                        <div className="news__content">
+                                            <div className="news__date">11.11.1111</div>
+                                            <div className="news__text">Lorem ipsum dolor sit amet.</div>
+                                        </div>
+                                    </div>
+                                    <div className="news__item card">
+                                        <img src={newsPhoto} alt=""/>
+                                        <div className="news__content">
+                                            <div className="news__date">11.11.1111</div>
+                                            <div className="news__text">Lorem ipsum dolor sit amet.</div>
+                                        </div>
+                                    </div>
+                                    <div className="news__item card">
+                                        <img src={newsPhoto} alt=""/>
+                                        <div className="news__content">
+                                            <div className="news__date">11.11.1111</div>
+                                            <div className="news__text">Lorem ipsum dolor sit amet.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
