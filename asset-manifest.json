@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/CarFix/static/css/main.daec85e0.css",
-    "main.js": "/CarFix/static/js/main.a1a19ce8.js",
+    "main.css": "/CarFix/static/css/main.ce27b791.css",
+    "main.js": "/CarFix/static/js/main.9ff2551e.js",
     "static/js/787.6008b523.chunk.js": "/CarFix/static/js/787.6008b523.chunk.js",
     "static/media/_large.jpg": "/CarFix/static/media/129434f8abd645838f1a0b583ed0ceca_large.18ade3c1e5498020433a.jpg",
     "static/media/Service.png": "/CarFix/static/media/Service.6ce81ce6961b3ff67138.png",
     "static/media/фон2.svg": "/CarFix/static/media/фон2.9246134b8ca743a5c4df.svg",
     "static/media/Безымянный-2.svg": "/CarFix/static/media/Безымянный-2.485fcdfd849dae42ccbc.svg",
-    "static/media/displ2.jpg": "/CarFix/static/media/displ2.ce888cb9cdf47935d695.jpg",
     "static/media/Слой_299.png": "/CarFix/static/media/Слой_299.fc13ccaf7f1dca374e78.png",
     "static/media/sto.png": "/CarFix/static/media/sto.bff1bdfba69730f3f6ad.png",
     "static/media/logo1.svg": "/CarFix/static/media/logo1.e5225c25b0602ab175767af5b01c4481.svg",
     "index.html": "/CarFix/index.html",
-    "main.daec85e0.css.map": "/CarFix/static/css/main.daec85e0.css.map",
-    "main.a1a19ce8.js.map": "/CarFix/static/js/main.a1a19ce8.js.map",
+    "main.ce27b791.css.map": "/CarFix/static/css/main.ce27b791.css.map",
+    "main.9ff2551e.js.map": "/CarFix/static/js/main.9ff2551e.js.map",
     "787.6008b523.chunk.js.map": "/CarFix/static/js/787.6008b523.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daec85e0.css",
-    "static/js/main.a1a19ce8.js"
+    "static/css/main.ce27b791.css",
+    "static/js/main.9ff2551e.js"
   ]
 }
