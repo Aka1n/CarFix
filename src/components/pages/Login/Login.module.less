@@ -1,0 +1,41 @@
+@import "../../../library";
+
+.login {
+  padding-top: @header-height;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  background: url(../../../imgs/fon.svg) no-repeat center center;
+  background-size: cover;
+  @media (max-width: 768px) {
+    padding-top: @header-height-mobile;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    margin-bottom: 100px;
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    label {
+      font-size: 18px;
+      font-weight: 500;
+      color: #06599F;
+      width: 100%;
+    }
+    input {
+      margin-bottom: 15px;
+    }
+  }
+
+}

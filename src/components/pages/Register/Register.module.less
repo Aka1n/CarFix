@@ -1,0 +1,68 @@
+@import "../../../library";
+
+.register {
+  padding-top: @header-height;
+  @media (max-width: 768px) {
+    padding-top: @header-height-mobile;
+  }
+  display: flex;
+  height: 100%;
+  background: url(../../../imgs/fon.svg) no-repeat center center;
+  background-size: cover;
+  flex: 1 1 auto;
+  flex-direction: column;
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    margin-bottom: 100px;
+    max-width: 600px;
+    width: 100%;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    label {
+      font-size: 18px;
+      font-weight: 500;
+      color: #06599F;
+      width: 100%;
+    }
+    :global {
+      .ant-input-affix-wrapper {
+        margin: 15px 0 20px 0;
+        padding: 10px 16px;
+      }
+    }
+    .icon {
+      margin-right: 10px;
+    }
+    .errorText {
+      color: darkred;
+      font-weight: normal;
+    }
+    .error {
+      box-shadow: 0 0 0 2px rgb(1139 0 0 / 20%) !important;
+      border-color: darkred !important;
+      &:focus {
+        box-shadow: 0 0 0 2px rgb(1139 0 0 / 20%);
+        border-color: darkred;
+      }
+    }
+    input {
+      margin: 15px 0 20px 0;
+    }
+    span {
+      input {
+        margin: 0;
+      }
+    }
+  }
+
+}

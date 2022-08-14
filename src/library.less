@@ -1,0 +1,24 @@
+@header-height: 110px;
+@header-height-mobile: 60px;
+@mobile-margin-top: 50px;
+@dt-margin-top: 150px;
+
+.submitButton {
+  max-width: 370px;
+  width: 100%;
+  background: #06599F;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  margin: 20px 0 20px 0;
+  &:disabled {
+    opacity: 0.5;
+  }
+  @media (max-width: 768px) {
+    font-size: 18px;
+    max-width: 100%;
+    padding: 20px;
+  }
+}

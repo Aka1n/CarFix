@@ -1,0 +1,90 @@
+footer {
+  min-height: 374px;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(6,89,159,1) 57%, rgba(6,89,159,0.5046393557422969) 100%),
+  url(../../imgs/Слой302@1X.png) no-repeat right bottom;
+  .footer {
+    padding: 58px 0;
+    @media (max-width: 768px) {
+      padding: 10px 0;
+    }
+    .body {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      justify-content: space-between;
+    }
+    .item {
+      ul {
+        transition: max-height 300ms;
+        width: auto;
+        li {
+          font-weight: 600;
+          padding: 10px 0;
+          color: #68A0FF;
+          font-size: 18px;
+          margin-right: 0;
+          @media (max-width: 768px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .title {
+      padding: 10px 0;
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+      @media (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+    .number {
+      padding: 10px 0;
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .email {
+      padding: 10px 0;
+      color: #68A0FF;
+      font-size: 18px;
+    }
+    .social {
+      img {
+        margin-right: 5px;
+      }
+    }
+    @media (max-width: 669px) {
+      .active {
+        max-height: 100vh;
+        &:before {
+          transform: rotate(180deg);
+        }
+      }
+      ul {
+        overflow: hidden;
+        max-height: 0;
+        margin-bottom: 5px;
+        li {
+          &:last-child {
+            padding: 10px 0 15px 0 !important;
+            border-bottom: 2px solid white;
+          }
+        }
+      }
+      .item {
+        .title {
+          position: relative;
+          cursor: pointer;
+          &:before {
+            transition: 300ms;
+            position: absolute;
+            font-family: "Font Awesome 5 Free";
+            content: "\f0d7";
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
